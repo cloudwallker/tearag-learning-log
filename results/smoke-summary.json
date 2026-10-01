@@ -1,0 +1,23 @@
+{
+  "recorded_date": "2026-09-30",
+  "level": "R0_low_resource_workflow_adaptation",
+  "dataset": "HotpotQA distractor",
+  "sample": "first_three_training_examples_nonrandom_smoke_only",
+  "model": "Llama 3 8B Q4_0",
+  "n": 3,
+  "completed": 3,
+  "exact_match_count": 1,
+  "em": 0.3333333333333333,
+  "mean_answer_token_f1": 0.8222222222222222,
+  "mean_retrievals": 1,
+  "model_calls": 36,
+  "kg_extraction_calls": 30,
+  "input_and_output_tokens": 9167,
+  "kg_tokens": 7700,
+  "online_tokens": 1467,
+  "elapsed_seconds": 124.97954999999999,
+  "kg_format_errors": 1,
+  "usage_complete": true,
+  "diagnostic_branches_executed": false,
+  "limitation": "A three-example nonrandom workflow check does not support benchmark, generalization, or method-improvement claims."
+}

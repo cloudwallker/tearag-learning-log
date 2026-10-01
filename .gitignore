@@ -1,0 +1,23 @@
+# This repository contains curated learning documents only.
+__pycache__/
+.venv/
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
+models/
+data/raw/
+data/processed/
+cache/
+upstream/
+runs/
+.codex/
+.agents/
+.claude/
+.cursor/
+.aws/
+.github-publish-work/
+docs/superpowers/

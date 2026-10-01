@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">TeaRAG learning workflow</title>
+  <desc id="desc">Implemented local retrieval workflow above; unexecuted diagnostic branch preparation below.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#5d7894"/></marker>
+  </defs>
+  <rect width="1200" height="470" rx="22" fill="#f5f8fc"/>
+  <g font-family="Arial, sans-serif">
+    <text x="48" y="55" font-size="28" font-weight="700" fill="#142b43">TeaRAG Learning Log</text>
+    <text x="48" y="87" font-size="17" fill="#536b82">Low-resource adaptation · evidence visibility · complete cost accounting</text>
+    <text x="48" y="129" font-size="14" font-weight="700" fill="#266b50">IMPLEMENTED WORKFLOW</text>
+    <g fill="#ffffff" stroke="#b7ccdf" stroke-width="2">
+      <rect x="48" y="153" width="162" height="95" rx="12"/>
+      <rect x="235" y="153" width="162" height="95" rx="12"/>
+      <rect x="422" y="153" width="162" height="95" rx="12"/>
+      <rect x="609" y="153" width="162" height="95" rx="12"/>
+      <rect x="796" y="153" width="162" height="95" rx="12"/>
+      <rect x="983" y="153" width="169" height="95" rx="12"/>
+    </g>
+    <g text-anchor="middle" fill="#18354f" font-size="17" font-weight="700">
+      <text x="129" y="188">Question +</text><text x="129" y="212">original passages</text>
+      <text x="316" y="188">Local model</text><text x="316" y="212">triple extraction</text>
+      <text x="503" y="188">BM25</text><text x="503" y="212">candidates</text>
+      <text x="690" y="188">Source graph</text><text x="690" y="212">+ PPR</text>
+      <text x="877" y="188">Visible</text><text x="877" y="212">evidence</text>
+      <text x="1067" y="188">Search / answer</text><text x="1067" y="212">+ cost record</text>
+    </g>
+    <g stroke="#5d7894" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M211 200 H228"/><path d="M398 200 H415"/><path d="M585 200 H602"/><path d="M772 200 H789"/><path d="M959 200 H976"/>
+    </g>
+    <text x="48" y="294" font-size="14" font-weight="700" fill="#8a642b">PREPARED INTERFACES · NOT EXECUTED</text>
+    <g fill="#fff8e9" stroke="#d8be85" stroke-width="2" stroke-dasharray="6 4">
+      <rect x="48" y="313" width="341" height="83" rx="12"/>
+      <rect x="424" y="313" width="341" height="83" rx="12"/>
+      <rect x="800" y="313" width="352" height="83" rx="12"/>
+    </g>
+    <g text-anchor="middle" fill="#624b28" font-size="18" font-weight="700">
+      <text x="218" y="346">Candidate audit</text><text x="218" y="373" font-size="14" font-weight="400">filtering vs. prompt packing</text>
+      <text x="594" y="346">One bounded reread</text><text x="594" y="373" font-size="14" font-weight="400">fixed selection · explicit upper bound</text>
+      <text x="976" y="346">Four paired branch plans</text><text x="976" y="373" font-size="14" font-weight="400">stop · reread · retrieve · regenerate</text>
+    </g>
+    <text x="48" y="442" font-size="15" fill="#536b82">3-example smoke check ≠ benchmark result. Research paused; no new inference for publication.</text>
+  </g>
+</svg>
